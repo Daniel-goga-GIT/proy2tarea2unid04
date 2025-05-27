@@ -52,5 +52,19 @@ public class DebuggingExample {
     public double calculateAverageLetters(List<String> names, int totalLetters) {
         return names.isEmpty() ? 0 : (double) totalLetters / names.size(); // Set a breakpoint and use 'Evaluate Expression' here
     }
+    
+	public void debugExample() {
+		// Metodo sysout para depuración
+		System.out.println("Debugging example method");
+	}
+    
+    //Comentario Daniel González García
+    
+    /*
+     * 
+     * Comentario de prueba DGG
+     * Otro comentario de prueba DGG
+     * 
+     */
 
 }
